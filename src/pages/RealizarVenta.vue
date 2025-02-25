@@ -57,7 +57,7 @@ export default {
       if (response) {
         alert('Venta guardada exitosamente');
       } else {
-        alert('Error al guardar la venta');
+        alert('Error al guardar la venta o stock no disponible');
       }
     }
   }
